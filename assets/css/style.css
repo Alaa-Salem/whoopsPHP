@@ -1,0 +1,35 @@
+.result{
+    border:1px solid #ced4da;
+    border-radius: 5px;
+   ;
+  
+}
+
+.result .answer {
+    width: 300px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    resize: horizontal;
+  }
+
+/* 
+svg{
+    cursor: pointer;
+} */
+  
+
+
+h1{
+  color: tomato !important;
+}
+
+img{
+  width:500px; 
+  height:500px;
+}
+
+.vote{
+  display: flex;
+  flex-direction: column;
+}
